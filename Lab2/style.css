@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    font-size: 36px;
+}
+.profile-card{
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+}
+#contact-button{
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+    border:none;
+}
