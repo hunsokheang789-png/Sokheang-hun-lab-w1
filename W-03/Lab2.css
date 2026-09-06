@@ -1,0 +1,29 @@
+body {
+    background: pink;
+    margin: 0;
+}
+
+.wrapper {
+    padding: 0 10em;
+    height: 100vh;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header {
+    background: gray;
+    height: 100px;
+}
+
+main {
+    background: gray;
+    flex-grow: 1;
+}
+
+footer {
+    background: gray;
+    height: 100px;
+}
