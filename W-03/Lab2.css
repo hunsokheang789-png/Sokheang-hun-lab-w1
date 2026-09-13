@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.wrapper {
+.container {
     padding: 0 10em;
     height: 100vh;
     box-sizing: border-box;

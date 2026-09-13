@@ -8,7 +8,7 @@ body {
     color: rgb(48, 0, 0);
 }
 
-.container {
+.parent {
     display: grid;
     grid-template-rows: 100px 200px 200px 100px;
     grid-template-columns: 200px 1fr 1fr;
@@ -33,14 +33,14 @@ body {
     grid-area: c;
 }
 
-.box-4 {
+.box-four {
     grid-area: d;
 }
 
-.box-5 {
+.box-five {
     grid-area: e;
 }
 
-.box-6 {
+.box-six {
     grid-area: f;
 }

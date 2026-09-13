@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimade Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="dashboard-grid">
+        <aside class="sidebar">
+            <div class="logo">Estimade</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Overview</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <header class="top-header">
+                <h1>Hello Noah, here's your overview</h1>
+                <div class="user-profile">
+                    <span class="badge">Pro Member</span>
+                    <button class="btn-download">Download Report</button>
+                </div>
+            </header>
+            <section class="metrics-grid">
+                <div class="card metric-card">
+                    <span class="metric-label">Total Revenue</span>
+                    <span class="metric-value">$121,920</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-label">Transactions</span>
+                    <span class="metric-value">89,121</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-label">Customers</span>
+                    <span class="metric-value">12,992</span>
+                </div>
+                <div class="card metric-card">
+                    <span class="metric-label">Growth</span>
+                    <span class="metric-value">+21.20%</span>
+                </div>
+            </section>
+            <section class="content-grid">
+                <div class="card">
+                    <h2>Latest transactions</h2>
+                    <ul class="transaction-list">
+                        <li class="transaction-item">
+                            <span class="transaction-name">Jessica McCullough</span>
+                            <span class="transaction-status">Pending</span>
+                            <span class="transaction-amount">+$510.12</span>
+                        </li>
+                        <li class="transaction-item">
+                            <span class="transaction-name">Antoine Rosenberg</span>
+                            <span class="transaction-status">Completed</span>
+                            <span class="transaction-amount">+$750.00</span>
+                        </li>
+                        <li class="transaction-item">
+                            <span class="transaction-name">Richard Bouchner</span>
+                            <span class="transaction-status">Pending</span>
+                            <span class="transaction-amount">+$230.50</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Performance</h2>
+                    <p>Go premium &amp; get more daily insights and automated analytics reports.</p>
+                    <button class="btn-upgrade">Upgrade Now</button>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
